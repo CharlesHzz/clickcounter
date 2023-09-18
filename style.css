@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEEEEE;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: auto;
+}
+h1{
+    font: bold 35px arial;
+    color: #326273;
+}
+.numero {
+    padding: 30px;
+    font: bold 80px arial;
+    color: #E39774;
+}
+
+.botoes{
+    color: red;
+}
+button{
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font: bold 13px arial;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #46476e;
+    border: 2px solid #326273;
+}
+button:hover{
+    border: 2px solid #5C9EAD;
+}
+#reset{
+    margin: 15px;
+}
